@@ -1,0 +1,29 @@
+{% load static %}
+
+<nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
+        <li class="sidebar-items"><a href="#"> Home </a></li>
+        <li class="sidebar-items"><a href="#"> About </a></li>
+        <li class="sidebar-items"><a href="#"> Precare </a></li>
+        <li class="sidebar-items"><a href="#"> Booking </a></li>
+    </ul>
+    <ul>
+        <li class="brand-title"><a href="#"> Elevate Tanning </a></li>
+        <li class="hideonMobile"><a href="#"> Home </a></li>
+        <li class="hideonMobile"><a href="#"> About </a></li>
+        <li class="hideonMobile"><a href="#"> Precare </a></li>
+        <li class="hideonMobile"><a href="#"> Booking </a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+</nav>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
