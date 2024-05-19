@@ -3,6 +3,46 @@
 
 {% block content %}
 
-<h1> </h1>
+<section class="text-center-section">
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="text-center">
+            <div>
+                <h1 class="custom-h1"> Elevate Tanning </h1>
+                <h2 class="custom-h2"> Natural Spray Tans that Elevate Your Look
+                </h2>
+            </div>
+            <div id="header-btn">
+                <a href="#" class="btn btn-secondary btn-lg" style="box-shadow: 3px 3px 5px rgba(0,0,0,0.6);">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="card-group" style="padding: 1rem;">
+    <div class="card text-center">
+      <img src="{% static 'img/elevate-lauren.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Available Booking Everyday </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#" class="btn btn-primary">Book Here</a>
+      </div>
+    </div>
+    <div class="card text-center">
+      <img src="{% static 'img/elevate-rachelle.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> About Elevate </h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">About Us</a>
+      </div>
+    </div>
+    <div class="card text-center">
+      <img src="{% static 'img/elevate-precare.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Precare </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <a href="#" class="btn btn-primary">Precare Instructions</a>
+      </div>
+    </div>
+  </div>
 
 {% endblock %}
