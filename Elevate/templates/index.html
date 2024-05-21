@@ -17,59 +17,57 @@
         </div>
     </div>
 </section>
-
-<div class="card-group" style="padding: 1rem;">
-    <div class="card text-center">
-      <img src="{% static 'img/elevate-lauren.jpg' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"> Available Booking Everyday </h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="#" class="btn btn-primary">Book Here</a>
+<div class="col-xl-11 mx-auto">
+  <div class="card-group" style="padding: 1rem; justify-content: center;">
+      <div class="card text-center">
+        <img src="{% static 'img/elevate-lauren.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Available Booking Everyday </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="#" class="btn btn-primary">Book Here</a>
+        </div>
+      </div>
+      <div class="card text-center">
+        <img src="{% static 'img/elevate-rachelle.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> About Elevate </h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="{% url 'about' %}" class="btn btn-primary">About Us</a>
+        </div>
+      </div>
+      <div class="card text-center">
+        <img src="{% static 'img/elevate-precare.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Precare </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <a href="#" class="btn btn-primary">Precare Instructions</a>
+        </div>
       </div>
     </div>
-    <div class="card text-center">
-      <img src="{% static 'img/elevate-rachelle.jpg' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"> About Elevate </h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">About Us</a>
-      </div>
-    </div>
-    <div class="card text-center">
-      <img src="{% static 'img/elevate-precare.jpg' %}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"> Precare </h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <a href="#" class="btn btn-primary">Precare Instructions</a>
-      </div>
-    </div>
-  </div>
+</div>
 
-  <hr class="featurette-divider">
-
-  <div class="row featurette" style="margin: 0 3rem 0 3rem; max-width: 100%; justify-content: center;">
-    <div class="col-md-7">
-      <h2 class="featurette-heading fw-light lh-1 display-4">Glowing Review: </h2>
+  <div class="row featurette" style="margin: 0 3rem 0 3rem; max-width: 100%; justify-content: center; align-items: center;">
+    <h2 class="featurette-heading fw-light lh-1 display-4" style="padding: 1rem;">Glowing Reviews: </h2>
+    <hr class="featurette-divider">
+    <div class="col-md-7 col-xl-5">
       <h2 class="featurette-heading fw-light lh-1 display-5">Amber</h2>
-      <p class="lead" style="padding-top: 2rem;" >"Elevate Tanning exceeded my expectations for my wedding spray tan! The staff was friendly and professional, 
+      <p class="lead" style="padding-top: 2rem; color: white;" >"Elevate Tanning exceeded my expectations for my wedding spray tan! The staff was friendly and professional, 
         and the tan looked natural and flawless. I felt confident and radiant on my big day, and I highly recommend Elevate Tanning to all brides-to-be!"</p>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-5 col-lg-4">
       <img class="img-fluid img-thumbnail" src="{% static 'img/elevate-amber.jpg' %}">
     </div>
   </div>
 
-  <hr class="featurette-divider">
-
-  <div class="row featurette" style="margin: 0 3rem 0 3rem; max-width: 100%; justify-content: center;">
-    <div class="col-md-7 order-md-2">
-      <h2 class="featurette-heading fw-light lh-1 display-4">Glowing Review: </h2>
+  <div class="row featurette" style="margin: 1rem 3rem 1rem 3rem; max-width: 100%; justify-content: center; align-items: center;">
+    <hr class="featurette-divider">
+    <div class="col-md-7 col-xl-5 order-md-2">
       <h2 class="featurette-heading fw-light lh-1 display-5">Erika</h2>
-      <p class="lead" style="padding-top: 2rem;">"Elevate Tanning made my formal night unforgettable! Rachelle was so friendly and knowledgeable, 
+      <p class="lead" style="padding-top: 2rem; color: white;">"Elevate Tanning made my formal night unforgettable! Rachelle was so friendly and knowledgeable, 
         and my spray tan looked flawless. It gave me a natural glow that lasted all night. I highly recommend Elevate 
         Tanning for any special occasion!"</p>
     </div>
-    <div class="col-md-5 order-md-1">
+    <div class="col-md-5 col-lg-4 order-md-1" style="justify-content: center;">
       <img class="img-fluid img-thumbnail" src="{% static 'img/elevate-erika.jpg' %}">
     </div>
   </div>

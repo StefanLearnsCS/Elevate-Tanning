@@ -9,7 +9,7 @@ main {
 
 body {
   min-height: 100vh;
-  background-color: rgb(218, 181, 142);
+  background-color: rgb(182, 182, 182);
   font-family: 'Montserrat';
 }
 
@@ -87,7 +87,7 @@ nav li:first-child{
 
 section {
   background-image: url("../img/tan-carousel-8.jpg");
-  height: 35vh; 
+  height: 30vh; 
   background-size: cover; 
   background-position: center;
   padding-top: 1rem;
@@ -102,10 +102,12 @@ section h1,h2 {
 
 .custom-h1 {
   font-size: 4em;
+  user-select: none;
 }
 
 .custom-h2 {
   font-size: 2.5em;
+  user-select: none;
 }
 
 #header-btn {
@@ -122,7 +124,7 @@ section h1,h2 {
   }
   
   #header-btn {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 }
 
@@ -178,7 +180,7 @@ section h1,h2 {
   }
   
   #header-btn {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
 }
