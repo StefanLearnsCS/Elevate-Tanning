@@ -9,7 +9,7 @@ main {
 
 body {
   min-height: 100vh;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(165, 158, 154);
   font-family: 'Montserrat';
 }
 
@@ -87,7 +87,7 @@ nav li:first-child{
 
 section {
   background-image: url("../img/tan-carousel-8.jpg");
-  height: 30vh; 
+  height: 35vh; 
   background-size: cover; 
   background-position: center;
   padding-top: 1rem;
@@ -149,6 +149,11 @@ section h1,h2 {
   
   #header-btn {
     margin-top: 1.5rem;
+  }
+
+  #about-profile-img {
+    margin: auto;
+    margin-top: 1rem;
   }
 }
 
