@@ -101,18 +101,34 @@ section h1,h2 {
 }
 
 .custom-h1 {
-  font-size: 4em;
+  font-size: 5rem;
   user-select: none;
 }
 
 .custom-h2 {
-  font-size: 2.5em;
+  font-size: 3rem;
   user-select: none;
 }
 
 #header-btn {
   margin-top: 1.5rem;
 }
+
+
+@media(max-width: 1440px){
+  .custom-h1 {
+    font-size: 4rem;
+  }
+  
+  .custom-h2 {
+    font-size: 2.5rem;
+  }
+  
+  #header-btn {
+    margin-top: 1.5rem;
+  }
+}
+
 
 @media(max-width: 1024px){
   .custom-h1 {
@@ -126,6 +142,10 @@ section h1,h2 {
   #header-btn {
     margin-top: 1.5rem;
   }
+
+  section {
+    height: 30vh; 
+}
 }
 
 
@@ -177,7 +197,8 @@ section h1,h2 {
   }
 
   .custom-h1 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+    text-wrap: nowrap;
   }
   
   .custom-h2 {
