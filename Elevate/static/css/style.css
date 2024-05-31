@@ -111,7 +111,7 @@ section h1,h2 {
 }
 
 #header-btn {
-  margin-top: 1.5rem;
+  margin-top: 0.1rem;
 }
 
 
@@ -122,10 +122,6 @@ section h1,h2 {
   
   .custom-h2 {
     font-size: 2.5rem;
-  }
-  
-  #header-btn {
-    margin-top: 1.5rem;
   }
 }
 
@@ -138,13 +134,9 @@ section h1,h2 {
   .custom-h2 {
     font-size: 2rem;
   }
-  
-  #header-btn {
-    margin-top: 1.5rem;
-  }
 
   section {
-    height: 30vh; 
+    height: 35vh; 
 }
 }
 
@@ -165,10 +157,6 @@ section h1,h2 {
   
   .custom-h2 {
     font-size: 2em;
-  }
-  
-  #header-btn {
-    margin-top: 1.5rem;
   }
 
   #about-profile-img {
@@ -197,16 +185,11 @@ section h1,h2 {
   }
 
   .custom-h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     text-wrap: nowrap;
   }
   
   .custom-h2 {
     font-size: 1.5em;
   }
-  
-  #header-btn {
-    margin-top: 2rem;
-  }
-  
 }
