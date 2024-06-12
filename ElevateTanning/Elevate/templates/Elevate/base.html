@@ -8,9 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elevate Tanning</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/apple-touch-icon.png' %}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img//favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img///favicon-16x16.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'Elevate/img/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'Elevate/img//favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'Elevate/img///favicon-16x16.png' %}">
     <link rel="manifest" href="/site.webmanifest">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,17 +22,17 @@
     <link
       rel="preload"
       as="style"
-      href="{% static 'css/style.css' %}"
+      href="{% static 'Elevate/css/style.css' %}"
       onload="this.rel = 'stylesheet'"
     />
 
    </head>
 
    <body>
-    {% include 'partials/header.html' %}
+    {% include 'Elevate/partials/header.html' %}
 
     <main>{% block content %} {% endblock %}</main>
 
-    {% include 'partials/footer.html' %}
+    {% include 'Elevate/partials/footer.html' %}
   </body>
 </html>
