@@ -120,6 +120,11 @@ section h1,h2 {
   font-weight: 400;
 }
 
+#sidebar-text {
+  font-weight: 450;
+  font-size: 2rem;
+  color: black;
+}
 
 @media(max-width: 1440px){
   .custom-h1 {
